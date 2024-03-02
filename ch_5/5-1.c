@@ -11,7 +11,7 @@ int main(void)
 	{
 		printf("Enter a number of minutes:\n");
 		scanf("%d", &input);
-		hours = (double)input / conversion;
+		hours = input / conversion;
 		minutes = input % conversion;
 		printf("That equates to %d hours and %d minutes.\n\n", hours, minutes);
 	}
