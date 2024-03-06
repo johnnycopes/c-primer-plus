@@ -22,5 +22,5 @@ void Temperatures(double fahr)
 	const double cel = 5.0 / 9.0 * (fahr - 32.0);
 	const double kel = cel + 273.16;
 
-	printf("Fahrenheit: %lf | Celcius: %lf | Kelvin: %lf\n", fah, cel, kel);
+	printf("Fahrenheit: %.2lf | Celcius: %.2lf | Kelvin: %.2lf\n", fah, cel, kel);
 }
